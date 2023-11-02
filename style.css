@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+nav{
+    height: 80px;
+    background-color: #000;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1100px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px  50px;
+    height: 100%;
+
+}
+
+.logo a{
+    font-family: fantasy;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+
+
+}
+.logo{
+    justify-content: baseline;
+    margin-top: 4%;
+}
+.menu ul{
+    display: flex;
+}
+.menu ul li{
+    list-style: none;
+    margin: 0 15px;
+    margin-top: 7%;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    color: aliceblue;
+}
